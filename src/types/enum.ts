@@ -1,6 +1,6 @@
 export enum BasicStatus {
-  DISABLE,
-  ENABLE,
+  DISABLE = 0,
+  ENABLE = 1,
 }
 
 export enum ResultEnum {
@@ -52,7 +52,7 @@ export enum MultiTabOperation {
 }
 
 export enum PermissionType {
-  CATALOGUE,
-  MENU,
-  BUTTON,
+  CATALOGUE = 0,
+  MENU = 1,
+  BUTTON = 2,
 }
